@@ -1,0 +1,191 @@
+{
+  "swagger": "2.0",
+  "info": {
+      "title": "shopapi",
+      "description": "",
+      "version": "1.0"
+  },
+  "host": "0.0.0.0:4100",
+  "basePath": "/shopapi",
+  "schemes": [
+      "http"
+  ],
+  "paths": {
+      "/order/clear": {
+          "delete": {
+              "description": "",
+              "operationId": "order/clear",
+              "responses": {
+                  "204": {
+                      "description": "No Content"
+                  }
+              }
+          }
+      },
+      "/login": {
+          "post": {
+              "description": "",
+              "operationId": "login",
+              "responses": {
+                  "204": {
+                      "description": "No Content"
+                  }
+              }
+          }
+      },
+      "/logout": {
+          "post": {
+              "description": "",
+              "operationId": "logout",
+              "responses": {
+                  "204": {
+                      "description": "No Content"
+                  }
+              }
+          }
+      },
+      "/home": {
+          "get": {
+              "description": "",
+              "operationId": "home",
+              "responses": {
+                  "200": {
+                      "description": "OK"
+                  }
+              }
+          }
+      },
+      "/info": {
+          "get": {
+              "description": "",
+              "operationId": "info",
+              "responses": {
+                  "200": {
+                      "description": "OK"
+                  }
+              }
+          }
+      },
+      "/order": {
+          "put": {
+              "description": "",
+              "operationId": "order",
+              "responses": {
+                  "200": {
+                      "description": "OK"
+                  }
+              }
+          }
+      },
+      "/": {
+          "get": {
+              "description": "",
+              "operationId": "get",
+              "responses": {
+                  "200": {
+                      "description": "OK"
+                  }
+              }
+          },
+          "put": {
+              "description": "",
+              "operationId": "put",
+              "consumes": [
+                  "application/text"
+              ],
+              "responses": {
+                  "200": {
+                      "description": "OK"
+                  }
+              }
+          },
+          "post": {
+              "description": "",
+              "operationId": "post",
+              "consumes": [
+                  "application/text"
+              ],
+              "responses": {
+                  "204": {
+                      "description": "No Content"
+                  }
+              }
+          },
+          "options": {
+              "description": "",
+              "operationId": "options",
+              "responses": {
+                  "200": {
+                      "description": "OK"
+                  }
+              }
+          },
+          "patch": {
+              "description": "",
+              "operationId": "patch",
+              "responses": {
+                  "204": {
+                      "description": "No Content"
+                  }
+              }
+          }
+      },
+      "/sellers/list": {
+          "get": {
+              "description": "",
+              "operationId": "sellers/list",
+              "summary": "sellers/list",
+              "responses": {
+                  "200": {
+                      "description": "OK"
+                  }
+              }
+          }
+      },
+      "/reviews": {
+          "post": {
+              "description": "",
+              "operationId": "reviews",
+              "responses": {
+                  "204": {
+                      "description": "No Content"
+                  }
+              }
+          }
+      },
+      "/categories/list": {
+          "get": {
+              "description": "",
+              "operationId": "categories/list",
+              "summary": "categories/list",
+              "responses": {
+                  "200": {
+                      "description": "OK"
+                  }
+              }
+          }
+      },
+      "/checkout": {
+          "get": {
+              "description": "",
+              "operationId": "checkout",
+              "responses": {
+                  "200": {
+                      "description": "OK"
+                  }
+              }
+          }
+      },
+      "/products/list": {
+          "get": {
+              "description": "",
+              "operationId": "products/list",
+              "responses": {
+                  "200": {
+                      "description": "OK"
+                  }
+              }
+          }
+      }
+  }
+}
